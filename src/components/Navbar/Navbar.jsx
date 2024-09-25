@@ -1,7 +1,30 @@
-import React from "react";
+import Logo from "../../assets/logo.png";
 
 const Navbar = () => {
-  return <div>Navbar</div>;
+  return (
+    <nav className=" bg-[#606060] rounded-t-3xl ">
+      <div className="  w-3/4 mx-auto  flex justify-between p-1">
+        <div>
+          <img src={Logo} className="w-24 h-24" />
+        </div>
+
+        <ul className="flex items-center gap-x-8 text-white text-2xl font-normal">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About Us</a>
+          </li>
+          <li>
+            <a href="#">Our Products</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
 };
 
 export default Navbar;

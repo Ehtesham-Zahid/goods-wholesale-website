@@ -1,0 +1,22 @@
+.slider1 {
+  background-image: url("../../assets/slide-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slider2 {
+  background-image: url("../../assets/slide-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slider3 {
+  background-image: url("../../assets/slide-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.main-slider {
+  height: calc(100vh - 11rem);
+  font-family: "Alike Angular", serif;
+}

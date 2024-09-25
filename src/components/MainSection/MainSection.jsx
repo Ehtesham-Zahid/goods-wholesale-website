@@ -1,5 +1,11 @@
+import MainSlider from "../MainSlider/MainSlider";
+
 const MainSection = () => {
-  return <div>MainSection</div>;
+  return (
+    <div>
+      <MainSlider />
+    </div>
+  );
 };
 
 export default MainSection;

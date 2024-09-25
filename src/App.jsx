@@ -1,5 +1,13 @@
+import "./App.css";
+
+import HomePage from "./containers/HomePage/HomePage";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
 };
 
 export default App;
