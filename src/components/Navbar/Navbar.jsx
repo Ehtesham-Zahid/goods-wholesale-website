@@ -1,11 +1,11 @@
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo-3.png";
 
 const Navbar = () => {
   return (
-    <nav className=" bg-[#606060] rounded-t-3xl ">
+    <nav className=" bg-neutral-500 rounded-t-3xl ">
       <div className="  w-3/4 mx-auto  flex justify-between p-1">
         <div>
-          <img src={Logo} className="w-24 h-24" />
+          <img src={Logo} className="w-28 " />
         </div>
 
         <ul className="flex items-center gap-x-8 text-white text-2xl font-normal">

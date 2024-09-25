@@ -7,7 +7,7 @@ import {
 
 import MenuIcon from "@mui/icons-material/Menu";
 
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo.jpg";
 
 const SideDrawer = () => {
   return (
