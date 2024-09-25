@@ -20,3 +20,9 @@
   height: calc(100vh - 11rem);
   font-family: "Alike Angular", serif;
 }
+
+@media only screen and (max-width: 1024px) {
+  .main-slider {
+    height: calc(100vh - 15rem);
+  }
+}
