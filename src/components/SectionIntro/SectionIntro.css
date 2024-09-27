@@ -1,4 +1,17 @@
 .section-intro {
-  background-color: #faffb4;
+  background-color: #c8ae77;
   background-image: url("../../assets/about-2.jpg");
+
+  background-blend-mode: multiply;
+  font-family: "Glegoo", Georgia, "Times New Roman", serif;
+}
+
+.text-bg {
+  background-image: linear-gradient(
+    150deg,
+    rgba(0, 174, 255, 0.16) 0%,
+    rgba(29, 72, 192, 0) 100%
+  );
+
+  box-shadow: 0px 40px 200px -10px rgba(0, 0, 0, 0.3);
 }
