@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "../../assets/logo-3.png";
 
 const Navbar = () => {
@@ -10,16 +11,16 @@ const Navbar = () => {
 
         <ul className="flex items-center gap-x-8 text-white text-2xl font-normal">
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">About Us</a>
+            <Link to="/about">About Us</Link>
           </li>
           <li>
-            <a href="#">Our Products</a>
+            <Link to="/about">Our Products</Link>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <Link to="/about">Contact</Link>
           </li>
         </ul>
       </div>

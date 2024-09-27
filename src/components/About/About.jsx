@@ -1,7 +1,13 @@
-import React from "react";
+import Header from "../Header/Header";
+import SectionIntro from "../SectionIntro/SectionIntro";
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <div>
+      <Header />
+      <SectionIntro />
+    </div>
+  );
 };
 
 export default About;

@@ -2,9 +2,9 @@ import ServiceCard from "../ServiceCard/ServiceCard";
 
 const ServicesSection = () => {
   return (
-    <section className="my-5 rounded-3xl bg-sky-500 py-10">
+    <section className="my-5 rounded-3xl   py-10">
       <div className="w-5/6 md:w-3/4 mx-auto">
-        <p className="mb-10 text-center text-white text-4xl font-bold">
+        <p className="mb-10 text-center text-sky-500 text-4xl font-bold">
           OUR SERVICES
         </p>
         <div className="flex justify-around flex-wrap gap-10">
