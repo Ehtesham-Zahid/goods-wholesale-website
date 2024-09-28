@@ -5,7 +5,7 @@ const StorySection = () => {
     <section className="bg-[#fff9ec] rounded-3xl py-24 story-section">
       <div className="w-5/6 md:w-3/4 mx-auto ">
         <p className="text-center text-[#c8ae77] font-bold mb-5">OUR STORY</p>
-        <p className="text-center mb-14 text-4xl leading-relaxed">
+        <p className="text-center mb-14   max-[400px]:text-xl max-[400px]:leading-relaxed text-2xl leading-relaxed sm:text-3xl sm:leading-relaxed lg:text-4xl lg:leading-relaxed ">
           A story where innovation
           <br /> meets integration
         </p>

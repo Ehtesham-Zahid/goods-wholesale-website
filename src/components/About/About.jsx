@@ -1,4 +1,6 @@
+import ContactSection from "../ContactSection/ContactSection";
 import Header from "../Header/Header";
+import MandateSection from "../MandateSection/MandateSection";
 import SectionIntro from "../SectionIntro/SectionIntro";
 import StorySection from "../StorySection/StorySection";
 
@@ -8,6 +10,8 @@ const About = () => {
       <Header />
       <SectionIntro />
       <StorySection />
+      <MandateSection />
+      <ContactSection />
     </div>
   );
 };
