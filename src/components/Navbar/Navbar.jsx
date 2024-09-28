@@ -3,7 +3,7 @@ import Logo from "../../assets/logo-3.png";
 
 const Navbar = () => {
   return (
-    <nav className=" bg-neutral-500 rounded-t-3xl ">
+    <nav className=" bg-sky-500 rounded-t-3xl ">
       <div className="  w-3/4 mx-auto  flex justify-between p-1">
         <div>
           <img src={Logo} className="w-28 " />
@@ -17,10 +17,10 @@ const Navbar = () => {
             <Link to="/about">About Us</Link>
           </li>
           <li>
-            <Link to="/about">Our Products</Link>
+            <Link to="/services">Our Services</Link>
           </li>
           <li>
-            <Link to="/about">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </div>

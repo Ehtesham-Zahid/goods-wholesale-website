@@ -7,12 +7,13 @@ import {
 
 import MenuIcon from "@mui/icons-material/Menu";
 
-import Logo from "../../assets/logo.jpg";
+import Logo from "../../assets/logo-3.png";
+import { Link } from "react-router-dom";
 
 const SideDrawer = () => {
   return (
     <Sheet>
-      <div className="bg-[#606060] rounded-t-3xl">
+      <div className="bg-sky-500 rounded-t-3xl">
         <div className="w-11/12 sm:w-5/6 mx-auto flex justify-between items-center   px-2">
           <img src={Logo} className="w-20 sm:w-24" />
           <div className="   flex justify-start items-center ">
@@ -25,24 +26,33 @@ const SideDrawer = () => {
           <ul className="w-full flex flex-col justify-center items-center mt-2  text-xl">
             <li className="  my-4  ">
               <SheetClose asChild>
-                <a className="font-semibold flex justify-between  ">Home</a>
+                <Link to="/" className="font-semibold flex justify-between  ">
+                  Home
+                </Link>
               </SheetClose>
             </li>
             <li className="  my-4  ">
               <SheetClose asChild>
-                <a className="font-semibold flex justify-between  ">About Us</a>
+                <Link
+                  to="/about"
+                  className="font-semibold flex justify-between  "
+                >
+                  About Us
+                </Link>
               </SheetClose>
             </li>
             <li className="  my-4  ">
               <SheetClose asChild>
-                <a className="font-semibold " to="get-started">
-                  Our Products
-                </a>
+                <Link to="/services" className="font-semibold ">
+                  Our Services
+                </Link>
               </SheetClose>
             </li>
             <li className="   my-4 ">
               <SheetClose asChild>
-                <a className="font-semibold  text-center  ">Contact</a>
+                <Link to="/contact" className="font-semibold  text-center  ">
+                  Contact
+                </Link>
               </SheetClose>
             </li>
           </ul>
