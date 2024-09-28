@@ -2,7 +2,7 @@ import "./StorySection.css";
 
 const StorySection = () => {
   return (
-    <section className=" rounded-3xl py-24 story-section">
+    <section className=" rounded-3xl my-20 story-section">
       <div className="w-5/6 md:w-3/4 mx-auto ">
         <p className="text-center text-sky-500 font-bold mb-5">OUR STORY</p>
         <p className="text-center mb-14   max-[400px]:text-xl max-[400px]:leading-relaxed text-2xl leading-relaxed sm:text-3xl sm:leading-relaxed lg:text-4xl lg:leading-relaxed ">
